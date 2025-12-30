@@ -156,6 +156,7 @@ docker run -d -p 3000:3000 --env-file .env ghcr.io/dayuanjiang/next-ai-draw-io:l
 ```
 
 在浏览器中打开 [http://localhost:3000](http://localhost:3000)。
+> 注意：项目为多语言设计，首页需要添加语言后缀，例如访问 `http://localhost:3000/en`（英文）或 `http://localhost:3000/zh`（中文）。
 
 请根据您首选的AI提供商配置替换环境变量。可用选项请参阅[多提供商支持](#多提供商支持)。
 
